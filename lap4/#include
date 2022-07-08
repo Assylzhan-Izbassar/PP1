@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    return 0;
+}
+
+
+for(size_t i=0; i < n; i++){
+        for(size_t j=0; j < n; j++){
+            if(maxi == arr[i][j]){
+                cout << "Maximum element is: " << maxi << " with " << "coordinates: " << i+1 << ";" << j+1 << endl;
+                exit(0);
+            }
+        }
+    }

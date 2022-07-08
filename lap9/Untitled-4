@@ -1,0 +1,32 @@
+#include <iostream>
+#include <queue>
+
+using namespace std;
+
+int main(){
+    vector<int> v,v1,v2;
+    int n;
+    cin >> n;
+    for(int i =0; i< n;i++){
+        int x;
+        cin >> x;
+        v.push_back(x);
+    }
+    int k,r,l;
+    cin>>k;
+    for(int i =0; i< n;i++){
+        if(i+1 != k){
+            v1.push_back(v[i];)
+        }
+    }
+    cin >> l >> r;
+    for(int i =0; i<v1.size();i++){
+        if(i > r && i < l) v2.push_back(v1[i]);
+    }
+    
+    for(int i =0; i<v2.size();i++){
+        cout << v2[i]<<" ";
+    }
+
+    return 0;
+}
